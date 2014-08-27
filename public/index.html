@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="webrcs" ng-controller="AppCtrl">
+  <head>
+    <title ng-bind="pageTitle">webrcs</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome from BootstrapCDN -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    
+    <script type="text/javascript" src="../webrcsserver/jquery/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="../webrcsserver/jquery/jquery.atmosphere.js"></script>
+    <script type="text/javascript" src="../webrcsserver/jquery/jquery.opencom-rest.js"></script>
+    <script type="text/javascript" src="../webrcsserver/jquery/RecordRTC.js"></script>
+    
+    <!--
+    <script type="text/javascript" src="http://54.251.110.33:8080/webrcs/jquery/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://54.251.110.33:8080/webrcs/jquery/jquery.atmosphere.js"></script>
+    <script type="text/javascript" src="http://54.251.110.33:8080/webrcs/jquery/jquery.opencom.js"></script>
+    <script type="text/javascript" src="http://54.251.110.33:8080/webrcs/jquery/RecordRTC.js"></script>
+    -->
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/webrcs-0.0.1.css" />
+
+    <!-- compiled JavaScript -->
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="src/app/app.js"></script>
+    <script type="text/javascript" src="src/app/home/home.js"></script>
+    <script type="text/javascript" src="src/app/login/login.js"></script>
+    <script type="text/javascript" src="src/common/directives/call.js"></script>
+    <script type="text/javascript" src="src/common/directives/chat.js"></script>
+    <script type="text/javascript" src="src/common/directives/file.js"></script>
+    <script type="text/javascript" src="src/common/directives/sidebar.js"></script>
+    <script type="text/javascript" src="src/common/services/opencom.js"></script>
+    <script type="text/javascript" src="templates-common.js"></script>
+    <script type="text/javascript" src="templates-app.js"></script>
+
+  </head>
+  <body>
+    <div class="container" ui-view="main"></div>
+  </body>
+</html>

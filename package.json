@@ -1,0 +1,14 @@
+{
+  "name": "webrcs-demo-application",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.1.2",
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "method-override": "^1.0.0"
+  }
+}
